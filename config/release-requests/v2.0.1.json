@@ -1,0 +1,19 @@
+{
+  "sourceRepository": "x-cef/XCef",
+  "sourceCommit": "b864636eff17993c2e6cf1abaa8ecb3c97cd42c6",
+  "workflow": "build-release.yml",
+  "inputs": {
+    "source_tag": "v2.0.1",
+    "cef_packages": "[\"cef_binary_151.3.24+g2384915+chromium-151.0.7922.174_windows64.tar.bz2\"]"
+  },
+  "localValidation": {
+    "platform": "Windows x64",
+    "configuration": "Release",
+    "generator": "Visual Studio 17 2022",
+    "abi": 2,
+    "ctestPassed": 47,
+    "ctestFailed": 0
+  },
+  "publicationState": "requested",
+  "note": "Maintainer handoff only. Existing automation does not consume this file or publish on PR merge. Cloud build and public download verification are pending."
+}
